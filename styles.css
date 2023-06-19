@@ -1,0 +1,67 @@
+/* //////////////GLOBAL STYLING//////////////// */
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#171a20;
+}
+
+
+
+/* //////////////HEADER STYLING//////////////// */
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+   position: fixed;
+   top:0;
+   z-index: 2;
+   width:100%
+}
+
+a.logo{
+    height:12px;
+    width:100px;
+    color:#171a20;
+}
+
+header a{
+    color:inherit
+}
+
+header nav a{
+    text-decoration: none;
+    padding:5px 10px
+}
+
+header nav.center{
+    text-align: center;
+}
+
+.desktop{
+    display:none
+}
+
+@media screen and (min-width:768px) {
+    .desktop{
+        display:initial
+    }
+}
+
+header nav.right{
+    text-align: right;
+}
+
+
+
+
+
+/* //////////////MAIN STYLING//////////////// */
+section{
+    height:100vh;
+    border: 5px solid red
+}
